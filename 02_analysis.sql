@@ -1,31 +1,31 @@
---  ANALİZ SORULARI
--- 1. Teslim edilen sipariş sayısı nedir? Teslim edilmemiş siparişlerin durum dağılımı nasıldır?
+--  ANALÄ°Z SORULARI
+-- 1. Teslim edilen sipariÅŸ sayÄ±sÄ± nedir? Teslim edilmemiÅŸ sipariÅŸlerin durum daÄŸÄ±lÄ±mÄ± nasÄ±ldÄ±r?
 -- 2. Toplam gelir nedir?
--- 3. Ortalama sipariş tutarı nedir? Ödeme yöntemine göre nasıl değişiyor?
--- 4. En fazla ve en az sipariş hangi şehirlerden gelmektedir?
--- 5. Gelir tutarı en yüksek şehirler hangileridir?
--- 6. En çok satan ürün kategorileri nelerdir?
--- 7. Gelir tutarı en yüksek ürün kategorileri hangileridir ve toplam gelirdeki payları nedir?
--- 8. Her kategori içinde en çok satan ilk 3 ürün nedir?
--- 9. En çok kullanılan ödeme yöntemi hangisidir?
--- 10. Taksitli ödeme oranı nedir?
--- 11. Siparişlerin ortalama onay süresi ve teslim süresi ne kadardır?
--- 12. Geç teslim edilen sipariş oranı nedir? Zamanla nasıl değişiyor?
--- 13. Teslimat gecikmeleri en çok hangi şehirlerde yaşanıyor?
--- 14. Satıcıların performansı nasıldır? (sipariş sayısı,ürün sayısı,gelir,geç teslim oranı,iptal sipariş oranı)
--- 15. En yüksek gelir elde eden ilk %20 satıcı toplam gelirin yüzde kaçını oluşturuyor?
--- 16. Siparişlerin onaylanma ve ve teslimat sürelerinin dağılımı nasıldır?
--- 17. Teslimat süresi 2 haftadan uzun olan siparişler hangi şehir ve satıcılarda yoğunlaşıyor?
--- 18. Günlük ve aylık sipariş sayıları nasıl değişmektedir?
--- 19. Müşteriler en çok hangi saatlerde sipariş vermektedir?
--- 20. Sipariş yoğunluğu haftanın günlerine göre nasıl değişmektedir?
--- 21. Her şehirde en yüksek harcama yapan müşteriler kimlerdir?
--- 22. Aylık gelir ve bir önceki aya göre değişim oranı nedir?
--- 23. Gelirin zaman içerisindeki değişimi nasıldır? (Kümülatif gelir)
--- 24. Yıllara göre büyüme oranı nedir?
+-- 3. Ortalama sipariÅŸ tutarÄ± nedir? Ã–deme yÃ¶ntemine gÃ¶re nasÄ±l deÄŸiÅŸiyor?
+-- 4. En fazla ve en az sipariÅŸ hangi ÅŸehirlerden gelmektedir?
+-- 5. Gelir tutarÄ± en yÃ¼ksek ÅŸehirler hangileridir?
+-- 6. En Ã§ok satan Ã¼rÃ¼n kategorileri nelerdir?
+-- 7. Gelir tutarÄ± en yÃ¼ksek Ã¼rÃ¼n kategorileri hangileridir ve toplam gelirdeki paylarÄ± nedir?
+-- 8. Her kategori iÃ§inde en Ã§ok satan ilk 3 Ã¼rÃ¼n nedir?
+-- 9. En Ã§ok kullanÄ±lan Ã¶deme yÃ¶ntemi hangisidir?
+-- 10. Taksitli Ã¶deme oranÄ± nedir?
+-- 11. SipariÅŸlerin ortalama onay sÃ¼resi ve teslim sÃ¼resi ne kadardÄ±r?
+-- 12. GeÃ§ teslim edilen sipariÅŸ oranÄ± nedir? Zamanla nasÄ±l deÄŸiÅŸiyor?
+-- 13. Teslimat gecikmeleri en Ã§ok hangi ÅŸehirlerde yaÅŸanÄ±yor?
+-- 14. SatÄ±cÄ±larÄ±n performansÄ± nasÄ±ldÄ±r? (sipariÅŸ sayÄ±sÄ±,Ã¼rÃ¼n sayÄ±sÄ±,gelir,geÃ§ teslim oranÄ±,iptal sipariÅŸ oranÄ±)
+-- 15. En yÃ¼ksek gelir elde eden ilk %20 satÄ±cÄ± toplam gelirin yÃ¼zde kaÃ§Ä±nÄ± oluÅŸturuyor?
+-- 16. SipariÅŸlerin onaylanma ve ve teslimat sÃ¼relerinin daÄŸÄ±lÄ±mÄ± nasÄ±ldÄ±r?
+-- 17. Teslimat sÃ¼resi 2 haftadan uzun olan sipariÅŸler hangi ÅŸehir ve satÄ±cÄ±larda yoÄŸunlaÅŸÄ±yor?
+-- 18. GÃ¼nlÃ¼k ve aylÄ±k sipariÅŸ sayÄ±larÄ± nasÄ±l deÄŸiÅŸmektedir?
+-- 19. MÃ¼ÅŸteriler en Ã§ok hangi saatlerde sipariÅŸ vermektedir?
+-- 20. SipariÅŸ yoÄŸunluÄŸu haftanÄ±n gÃ¼nlerine gÃ¶re nasÄ±l deÄŸiÅŸmektedir?
+-- 21. Her ÅŸehirde en yÃ¼ksek harcama yapan mÃ¼ÅŸteriler kimlerdir?
+-- 22. AylÄ±k gelir ve bir Ã¶nceki aya gÃ¶re deÄŸiÅŸim oranÄ± nedir?
+-- 23. Gelirin zaman iÃ§erisindeki deÄŸiÅŸimi nasÄ±ldÄ±r? (KÃ¼mÃ¼latif gelir)
+-- 24. YÄ±llara gÃ¶re bÃ¼yÃ¼me oranÄ± nedir?
 
 
--- 1.1. Teslim edilmiş sipariş sayısı ve oranı
+-- 1.1. Teslim edilmiÅŸ sipariÅŸ sayÄ±sÄ± ve oranÄ±
 
 SELECT 
   COUNT(*) AS delivered_orders,
@@ -33,39 +33,39 @@ SELECT
 FROM df_Orders
 WHERE order_status='delivered';
 
--- 1.2. Teslim edilmemiş siparişlerin durum dağılımı
+-- 1.2. Teslim edilmemiÅŸ sipariÅŸlerin durum daÄŸÄ±lÄ±mÄ±
 
 SELECT order_status,COUNT(*) AS order_count FROM df_Orders
 WHERE order_status!='delivered'
 GROUP BY order_status
 ORDER BY order_count DESC;
 
--- 2.1. Tamamlanmış siparişler için toplam gelir
+-- 2.1. TamamlanmÄ±ÅŸ sipariÅŸler iÃ§in toplam gelir
 
 SELECT SUM(oi.price+oi.shipping_charges) AS revenue FROM df_OrderItems oi
 JOIN df_Orders o ON o.order_id=oi.order_id
 WHERE o.order_status='delivered';
 
--- 2.2. Ödemeye göre toplam gelir (onaylanmamış,iptal edilmiş,mevcut olmayan siparişler hariç)
+-- 2.2. Ã–demeye gÃ¶re toplam gelir (onaylanmamÄ±ÅŸ,iptal edilmiÅŸ,mevcut olmayan sipariÅŸler hariÃ§)
 
 SELECT SUM(p.payment_value) AS revenue FROM df_Payments p
 JOIN df_Orders o ON o.order_id=p.order_id
 WHERE o.order_status NOT IN ('canceled','unavailable') AND o.order_approved_at IS NOT NULL;
 
--- 3.1. Ortalama sipariş tutarı
+-- 3.1. Ortalama sipariÅŸ tutarÄ±
 
 SELECT ROUND(SUM(p.payment_value)/COUNT(p.order_id),2) AS avg_value FROM df_Payments p
 JOIN df_Orders o ON o.order_id=p.order_id
 WHERE o.order_status NOT IN ('canceled','unavailable') AND o.order_approved_at IS NOT NULL;
 
--- 3.2. Medyan sipariş tutarı
+-- 3.2. Medyan sipariÅŸ tutarÄ±
 
 SELECT DISTINCT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY p.payment_value) OVER() AS median_value
 FROM df_Payments p
 JOIN df_Orders o ON o.order_id=p.order_id
 WHERE o.order_status NOT IN ('canceled','unavailable') AND o.order_approved_at IS NOT NULL;
 
--- 3.3. Ödeme yöntemine göre ortalama sipariş tutarı
+-- 3.3. Ã–deme yÃ¶ntemine gÃ¶re ortalama sipariÅŸ tutarÄ±
 
 SELECT p.payment_type,ROUND(SUM(p.payment_value)/COUNT(o.order_id),2) AS avg_value FROM df_Payments p
 JOIN df_Orders o ON o.order_id=p.order_id
@@ -73,21 +73,21 @@ WHERE o.order_status NOT IN ('canceled','unavailable') AND o.order_approved_at I
 GROUP BY p.payment_type
 ORDER BY avg_value DESC;
 
--- 4.1. En çok sipariş veren ilk 5 şehir
+-- 4.1. En Ã§ok sipariÅŸ veren ilk 5 ÅŸehir
 
 SELECT TOP 5 c.customer_city,COUNT(*) AS order_count FROM df_Customers c
 JOIN df_Orders o ON o.customer_id=c.customer_id
 GROUP BY c.customer_city
 ORDER BY order_count DESC;
 
--- 4.2. En az siparişe sahip şehirler
+-- 4.2. En az sipariÅŸe sahip ÅŸehirler
 
 SELECT c.customer_city,COUNT(*) AS order_count FROM df_Customers c
 JOIN df_Orders o ON o.customer_id=c.customer_id
 GROUP BY c.customer_city
 HAVING COUNT(*)<20;
 
--- 4.3. Şehirlerin yüzde kaçının sipariş sayısı 20'den az
+-- 4.3. Åehirlerin yÃ¼zde kaÃ§Ä±nÄ±n sipariÅŸ sayÄ±sÄ± 20'den az
 
 WITH LowOrderCities AS(
     SELECT c.customer_city,COUNT(*) AS order_count FROM df_Customers c
@@ -101,7 +101,7 @@ FROM LowOrderCities;
 
 select distinct customer_city from df_Customers;
 
--- 5. Gelir tutarı en yüksek ilk 5 şehir
+-- 5. Gelir tutarÄ± en yÃ¼ksek ilk 5 ÅŸehir
 
 SELECT TOP 5 c.customer_city,SUM(p.payment_value) AS revenue FROM df_Customers c
 JOIN df_Orders o ON o.customer_id=c.customer_id
@@ -110,7 +110,7 @@ WHERE o.order_status NOT IN ('canceled','unavailable') AND o.order_approved_at I
 GROUP BY c.customer_city
 ORDER BY revenue DESC;
 
--- 6. En çok satan ürün kategorileri (ilk 5)
+-- 6. En Ã§ok satan Ã¼rÃ¼n kategorileri (ilk 5)
 
 SELECT TOP 5 dp.product_category_name,COUNT(*) AS order_count FROM DistinctProducts dp
 JOIN df_OrderItems oi ON oi.product_id=dp.product_id
@@ -118,7 +118,7 @@ WHERE dp.product_category_name IS NOT NULL
 GROUP BY dp.product_category_name
 ORDER BY order_count DESC;
 
--- 7. Gelir tutarı en yüksek ürün kategorileri ve toplam gelirdeki payları (ilk 10)
+-- 7. Gelir tutarÄ± en yÃ¼ksek Ã¼rÃ¼n kategorileri ve toplam gelirdeki paylarÄ± (ilk 10)
 
 WITH CategoryRevenue AS(
     SELECT dp.product_category_name,SUM(p.payment_value) AS revenue FROM DistinctProducts dp
@@ -132,7 +132,7 @@ SELECT TOP 10 product_category_name,revenue,ROUND(100.0*revenue/SUM(revenue) OVE
 FROM CategoryRevenue
 ORDER BY revenue_rate DESC;
 
--- 8. Her kategoride en çok satan ilk 3 ürün (eşitlikler dahil)
+-- 8. Her kategoride en Ã§ok satan ilk 3 Ã¼rÃ¼n (eÅŸitlikler dahil)
 
 WITH ProductRank AS(
     SELECT 
@@ -148,7 +148,7 @@ WITH ProductRank AS(
 SELECT * FROM ProductRank
 WHERE product_rank<=3;
 
--- 9. En çok kullanılan ödeme yöntemi
+-- 9. En Ã§ok kullanÄ±lan Ã¶deme yÃ¶ntemi
 
 SELECT
   p.payment_type,
@@ -160,7 +160,7 @@ WHERE o.order_status NOT IN ('canceled','unavailable') AND o.order_approved_at I
 GROUP BY p.payment_type
 ORDER BY order_count DESC;
 
--- 10. Taksitli ödeme oranı
+-- 10. Taksitli Ã¶deme oranÄ±
 
 WITH Installments AS(
     SELECT p.payment_installments FROM df_Payments p
@@ -173,19 +173,19 @@ SELECT
 FROM Installments
 WHERE payment_installments>1;
 
--- 11.1. Siparişlerin ortalama onay süresi
+-- 11.1. SipariÅŸlerin ortalama onay sÃ¼resi
 
 SELECT
   AVG(DATEDIFF(HOUR,order_purchase_timestamp,order_approved_at)) AS avg_approval_time
 FROM df_Orders;
 
--- 11.2. Siparişlerin ortalama teslim süresi
+-- 11.2. SipariÅŸlerin ortalama teslim sÃ¼resi
 
 SELECT
   AVG(DATEDIFF(DAY,order_purchase_timestamp,order_delivered_timestamp)) AS avg_delivery_time
 FROM df_Orders;
 
--- 12.1. Geç teslim edilen sipariş oranı
+-- 12.1. GeÃ§ teslim edilen sipariÅŸ oranÄ±
 
 SELECT
   COUNT(*) AS late_delivery_count,
@@ -194,7 +194,7 @@ SELECT
 FROM df_Orders
 WHERE DATEDIFF(DAY,order_delivered_timestamp,order_estimated_delivery_date)<0;
 
--- 12.2. Aylık gecikme oranı
+-- 12.2. AylÄ±k gecikme oranÄ±
 
 WITH MonthlyOrders AS(
     SELECT
@@ -223,7 +223,7 @@ FROM MonthlyOrders m
 LEFT JOIN LateOrders l ON l.order_year=m.order_year AND l.order_month=m.order_month
 ORDER BY order_year,order_month;
 
--- 13. En yüksek geç teslim edilen sipariş sayısına sahip şehirler (ilk 5)
+-- 13. En yÃ¼ksek geÃ§ teslim edilen sipariÅŸ sayÄ±sÄ±na sahip ÅŸehirler (ilk 5)
 
 SELECT TOP 5 c.customer_city,COUNT(*) AS late_delivery_count FROM df_Orders o
 JOIN df_Customers c ON c.customer_id=o.customer_id
@@ -231,7 +231,7 @@ WHERE DATEDIFF(DAY,o.order_delivered_timestamp,o.order_estimated_delivery_date)<
 GROUP BY c.customer_city
 ORDER BY late_delivery_count DESC;
 
--- 14. Satıcı performansı (sipariş sayısı,ürün sayısı,gelir,geç teslim oranı,iptal sipariş oranı)
+-- 14. SatÄ±cÄ± performansÄ± (sipariÅŸ sayÄ±sÄ±,Ã¼rÃ¼n sayÄ±sÄ±,gelir,geÃ§ teslim oranÄ±,iptal sipariÅŸ oranÄ±)
 
 WITH Revenue AS(
     SELECT oi.seller_id,SUM(oi.price+oi.shipping_charges) AS revenue FROM df_OrderItems oi
@@ -283,7 +283,7 @@ LEFT JOIN LateDelivery ld ON ld.seller_id=oi.seller_id
 LEFT JOIN Canceled c ON c.seller_id=oi.seller_id
 GROUP BY oi.seller_id,ld.late_delivery_rate,c.canceled_rate,r.revenue;
 
--- 15. En yüksek gelir elde eden ilk %20 satıcı toplam gelirin yüzde kaçını oluşturuyor
+-- 15. En yÃ¼ksek gelir elde eden ilk %20 satÄ±cÄ± toplam gelirin yÃ¼zde kaÃ§Ä±nÄ± oluÅŸturuyor
 
 WITH Top20Sellers AS(
     SELECT TOP 20 PERCENT oi.seller_id,SUM(p.payment_value) AS revenue FROM df_Payments p
@@ -302,7 +302,7 @@ SELECT
   ROUND(100.0*SUM(revenue)/(SELECT total_revenue FROM TotalRevenue),2) AS revenue_rate
 FROM Top20Sellers;
 
--- 16.1. Siparişlerin onaylanma sürelerine göre dağılımı
+-- 16.1. SipariÅŸlerin onaylanma sÃ¼relerine gÃ¶re daÄŸÄ±lÄ±mÄ±
 
 WITH ApprovalTimes AS(
     SELECT
@@ -327,7 +327,7 @@ FROM ApprovalTimeSegments
 GROUP BY approval_segment
 ORDER BY order_rate DESC;
 
--- 16.2. Siparişlerin teslim sürelerine göre dağılımı
+-- 16.2. SipariÅŸlerin teslim sÃ¼relerine gÃ¶re daÄŸÄ±lÄ±mÄ±
 
 WITH DeliveryTimes AS(
     SELECT
@@ -352,9 +352,9 @@ FROM DeliveryTimeSegments
 GROUP BY delivery_segment
 ORDER BY order_rate DESC;
 
--- 17. Teslimatı 2 haftadan uzun süren siparişlerin incelenmesi
+-- 17. TeslimatÄ± 2 haftadan uzun sÃ¼ren sipariÅŸlerin incelenmesi
 
--- şehir bazında
+-- ÅŸehir bazÄ±nda
 
 SELECT TOP 5 c.customer_city,COUNT(*) AS long_delivery_count FROM df_Orders o
 JOIN df_Customers c ON c.customer_id=o.customer_id
@@ -362,7 +362,7 @@ WHERE DATEDIFF(DAY,o.order_purchase_timestamp,o.order_delivered_timestamp)>14
 GROUP BY c.customer_city
 ORDER BY long_delivery_count DESC;
 
--- satıcı bazında
+-- satÄ±cÄ± bazÄ±nda
 
 SELECT
   oi1.seller_id,
@@ -375,13 +375,13 @@ WHERE DATEDIFF(DAY,o.order_purchase_timestamp,o.order_delivered_timestamp)>14
 GROUP BY oi1.seller_id
 ORDER BY long_delivery_count DESC;
 
--- 18.1. Günlük sipariş sayısı
+-- 18.1. GÃ¼nlÃ¼k sipariÅŸ sayÄ±sÄ±
 
 SELECT CAST(order_purchase_timestamp AS DATE) AS order_day,COUNT(*) AS order_count FROM df_Orders
 GROUP BY CAST(order_purchase_timestamp AS DATE)
 ORDER BY order_count DESC;
 
--- 18.2. Aylık sipariş sayısı
+-- 18.2. AylÄ±k sipariÅŸ sayÄ±sÄ±
 
 SELECT
   YEAR(order_purchase_timestamp) AS order_year,
@@ -391,19 +391,19 @@ FROM df_Orders
 GROUP BY YEAR(order_purchase_timestamp),MONTH(order_purchase_timestamp)
 ORDER BY order_year,order_month;
 
--- 19. En yoğun sipariş verilen saatler
+-- 19. En yoÄŸun sipariÅŸ verilen saatler
 
 SELECT DATEPART(HOUR,order_purchase_timestamp) AS order_hour,COUNT(*) AS order_count FROM df_Orders
 GROUP BY DATEPART(HOUR,order_purchase_timestamp)
 ORDER BY order_count DESC;
 
--- 20. En yoğun sipariş verilen günler
+-- 20. En yoÄŸun sipariÅŸ verilen gÃ¼nler
 
 SELECT DATENAME(WEEKDAY,order_purchase_timestamp) AS order_day,COUNT(*) AS order_count FROM df_Orders
 GROUP BY DATENAME(WEEKDAY,order_purchase_timestamp)
 ORDER BY order_count DESC;
 
--- 21. Her şehirde en yüksek harcama yapan müşteriler (eşitlikler dahil)
+-- 21. Her ÅŸehirde en yÃ¼ksek harcama yapan mÃ¼ÅŸteriler (eÅŸitlikler dahil)
 
 WITH CustomerRank AS(
     SELECT
@@ -420,7 +420,7 @@ WITH CustomerRank AS(
 SELECT customer_city,customer_id,payment_value FROM CustomerRank
 WHERE customer_rank=1;
 
--- 22. Aylık gelir ve bir önceki aya göre değişim oranı
+-- 22. AylÄ±k gelir ve bir Ã¶nceki aya gÃ¶re deÄŸiÅŸim oranÄ±
 
 DECLARE @StartDate1 DATE=(SELECT MIN(order_purchase_timestamp) FROM df_Orders);
 DECLARE @EndDate1 DATE=(SELECT MAX(order_purchase_timestamp) FROM df_Orders);
@@ -458,7 +458,7 @@ SELECT
   ROUND(100.0*(monthly_revenue - previous_month_revenue)/NULLIF(previous_month_revenue,0),2) AS revenue_change_rate
 FROM PreviousRevunue;
 
--- 23. Kümülatif gelir
+-- 23. KÃ¼mÃ¼latif gelir
 
 DECLARE @StartDate2 DATE=(SELECT MIN(order_purchase_timestamp) FROM df_Orders);
 DECLARE @EndDate2 DATE=(SELECT MAX(order_purchase_timestamp) FROM df_Orders);
@@ -486,7 +486,7 @@ SELECT
 FROM Months m
 LEFT JOIN MonthlyRevenue mr ON mr.order_year=YEAR(m.StartDate) AND mr.order_month=MONTH(m.StartDate);
 
--- 24. Yıllara göre büyüme oranı
+-- 24. YÄ±llara gÃ¶re bÃ¼yÃ¼me oranÄ±
 
 WITH YearlyRevenue AS(
     SELECT YEAR(order_purchase_timestamp) AS order_year,SUM(p.payment_value) AS yearly_revenue
