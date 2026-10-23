@@ -1,6 +1,6 @@
--- NULL VE DUPLICATE(YİNELENEN) DEĞERLERİ BULMA
+-- NULL VE DUPLICATE(YÄ°NELENEN) DEÄERLERÄ° BULMA
 
--- 1.Customers Tablosunda Null ve Duplicate Değerler
+-- 1.Customers Tablosunda Null ve Duplicate DeÄŸerler
 
 SELECT 'customer_id' AS column_name,COUNT(*) AS null_count FROM df_Customers
 WHERE customer_id IS NULL
@@ -15,9 +15,9 @@ SELECT customer_id,COUNT(*) AS duplicate_count FROM df_Customers
 GROUP BY customer_id
 HAVING COUNT(*)>1;
 
---Customers tablosunda kritik alanlarda null ve duplicate değer yok
+--Customers tablosunda kritik alanlarda null ve duplicate deÄŸer yok
 
--- 2.OrderItems Tablosunda Null ve Duplicate Değerler
+-- 2.OrderItems Tablosunda Null ve Duplicate DeÄŸerler
 
 SELECT 'order_id' AS column_name,COUNT(*) AS null_count FROM df_OrderItems
 WHERE order_id IS NULL
@@ -38,9 +38,9 @@ SELECT order_id,COUNT(*) AS duplicate_count FROM df_OrderItems
 GROUP BY order_id
 HAVING COUNT(*)>1;
 
---OrderItems tablosunda null ve duplicate değer yok
+--OrderItems tablosunda null ve duplicate deÄŸer yok
 
--- 3.Orders Tablosunda Null ve Duplicate Değerler
+-- 3.Orders Tablosunda Null ve Duplicate DeÄŸerler
 
 SELECT 'order_id' AS column_name,COUNT(*) AS null_count FROM df_Orders
 WHERE order_id IS NULL
@@ -67,11 +67,11 @@ SELECT order_id,COUNT(*) AS duplicate_count FROM df_Orders
 GROUP BY order_id
 HAVING COUNT(*)>1;
 
---order_approved_at: 9 NULL değer var
---order_delivered_timestamp: 1889 NULL değer var
---Orders tablosunda duplicate değer yok
+--order_approved_at: 9 NULL deÄŸer var
+--order_delivered_timestamp: 1889 NULL deÄŸer var
+--Orders tablosunda duplicate deÄŸer yok
 
--- 4.Payments Tablosunda Null ve Duplicate Değerler
+-- 4.Payments Tablosunda Null ve Duplicate DeÄŸerler
 
 SELECT 'order_id' AS column_name,COUNT(*) AS null_count FROM df_Payments
 WHERE order_id IS NULL
@@ -92,9 +92,9 @@ SELECT order_id,COUNT(*) AS duplicate_count FROM df_Payments
 GROUP BY order_id
 HAVING COUNT(*)>1;
 
---Payments tablosunda null ve duplicate değer yok
+--Payments tablosunda null ve duplicate deÄŸer yok
 
--- 5.Products Tablosunda Null ve Duplicate Değerler
+-- 5.Products Tablosunda Null ve Duplicate DeÄŸerler
 
 SELECT 'product_id' AS column_name,COUNT(*) AS null_count FROM df_Products
 WHERE product_id IS NULL
@@ -109,11 +109,11 @@ SELECT product_id,COUNT(*) AS duplicate_count FROM df_Products
 GROUP BY product_id
 HAVING COUNT(*)>1;
 
---product_category_name: 308 NULL değer var
---product_weight_g: 15 NULL değer var
---Products tablosunda product_id unique(benzersiz) değil
+--product_category_name: 308 NULL deÄŸer var
+--product_weight_g: 15 NULL deÄŸer var
+--Products tablosunda product_id unique(benzersiz) deÄŸil
 
--- Products tablosunda yinelenen product_id kayıtları tutarsız ürün tanımlarını mı temsil ediyor?
+-- Products tablosunda yinelenen product_id kayÄ±tlarÄ± tutarsÄ±z Ã¼rÃ¼n tanÄ±mlarÄ±nÄ± mÄ± temsil ediyor?
 
 SELECT product_id FROM df_Products
 GROUP BY product_id
@@ -121,7 +121,7 @@ HAVING COUNT(DISTINCT product_category_name)>1 OR COUNT(DISTINCT product_weight_
   OR COUNT(DISTINCT product_length_cm)>1 OR COUNT(DISTINCT product_height_cm)>1
   OR COUNT(DISTINCT product_width_cm)>1;
 
---Tüm duplicate(yinelenen) kayıtlar ürün özellikleri açısından tamamen tutarlı
+--TÃ¼m duplicate(yinelenen) kayÄ±tlar Ã¼rÃ¼n Ã¶zellikleri aÃ§Ä±sÄ±ndan tamamen tutarlÄ±
 
 SELECT DISTINCT product_id,product_category_name,product_weight_g,product_length_cm,
        product_height_cm,product_width_cm
